@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ConvercaoDiretaComponent } from './convercao-direta/convercao-direta.component';
-import { ConvercaoGeralComponent } from './convercao-geral/convercao-geral.component';
 import { MatTableModule } from '@angular/material/table';
 import { provideHttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
@@ -26,6 +25,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterModule } from '@angular/router';
 import { HistoricoComponent } from './historico/historico.component';
+import { ListaMoedasComponent } from './lista-moedas/lista-moedas.component';
 
 
 
@@ -35,8 +35,8 @@ import { HistoricoComponent } from './historico/historico.component';
     HomeComponent,
     HeaderComponent,
     ConvercaoDiretaComponent,
-    ConvercaoGeralComponent,
     HistoricoComponent,
+    ListaMoedasComponent,
   ],
   imports: [
     HttpClientModule,
