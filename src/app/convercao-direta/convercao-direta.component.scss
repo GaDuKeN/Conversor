@@ -1,0 +1,46 @@
+.conversion-container {
+  background-color: #9ba1c5;
+  padding: 30px;
+  border-radius: 0; 
+  box-shadow: 0 8px 16px #000000;
+  max-width: 600px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button {
+  margin-top: 16px;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #000000;
+  border-radius: 0px;
+  color: #ffffff;
+}
+
+.erro {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffcdd2;
+  border-radius: 8px;
+  color: #b71c1c;
+}

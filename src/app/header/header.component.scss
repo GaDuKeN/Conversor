@@ -1,0 +1,29 @@
+.custom-navbar {
+  background-color: #343a40; /* Cor de fundo da navbar */
+  color: #ffffff; /* Cor do texto da navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra na parte inferior */
+}
+
+.custom-navbar .navbar-brand {
+  font-family: 'Helvetica Neue', sans-serif; /* Fonte para o título da navbar */
+  font-size: 24px; /* Tamanho da fonte do título */
+  color: #ffffff; /* Cor do texto da navbar */
+}
+
+.custom-navbar .nav-link {
+  font-family: 'Helvetica Neue', sans-serif; /* Fonte para os links */
+  color: #ffffff; /* Cor padrão dos links */
+  padding: 10px 15px; /* Padding para links */
+  transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+}
+
+.custom-navbar .nav-link:hover {
+  background-color: #495057; /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+.custom-navbar .nav-link.active {
+  font-weight: bold; /* Peso da fonte para o link ativo */
+  color: #ffffff !important; /* Cor do link ativo */
+  border-bottom: 2px solid #ffffff; /* Linha inferior para o link ativo */
+}
