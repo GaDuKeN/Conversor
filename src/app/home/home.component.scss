@@ -5,13 +5,15 @@
     min-height: 100vh;
   }
   
-  .home-container {
-    background-color: #9ba1c5;
-    padding: 40px;
-    border-radius: 0px;
-    box-shadow: 0 8px 16px #000000;
-    max-width: 600px;
-    text-align: center;
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #e9eff5, #303031);
+    color: #f00f0f;
+    font-family: 'Roboto', sans-serif;
   }
   
   h1 {

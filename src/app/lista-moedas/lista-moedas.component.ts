@@ -16,7 +16,7 @@ export interface Moeda {
   styleUrl: './lista-moedas.component.scss'
 })
 export class ListaMoedasComponent implements OnInit {
-  displayedColumns: string[] = ['bandeira', 'pais', 'simbolo', 'nome'];
+  displayedColumns: string[] = ['simbolo', 'nome'];
   dataSource = new MatTableDataSource<Moeda>([]);
 
   @ViewChild(MatSort) sort!: MatSort;
